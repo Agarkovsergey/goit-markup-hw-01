@@ -5,101 +5,97 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="css/normalize.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<header class="header">
-			<a href="./index.html" class="header__link logo">
-				<span>Web</span>
-				Studio
-			</a>
-			<nav class="header__nav">
-				<ul class="header__list">
-					<li class="header__item header__item_active"><a href="#">Студия</a></li>
-					<li class="header__item"><a href="#">Портфолио</a></li>
-					<li class="header__item"><a href="#">Контакты</a></li>
+		<header>
+			<nav>
+				<a href="./index.html"><img src="./images/WebStudio.svg" alt="Логотип" /></a>
+				<ul>
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Контакты</a></li>
 				</ul>
+				<address>
+					<ul>
+						<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+						<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+					</ul>
+				</address>
 			</nav>
-			<ul class="header__contats">
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-			</ul>
 		</header>
 		<main>
-			<div class="banner">
-				<section class="banner__content">
-					<h1 class="banner__title">
-						Эффективные решения для
-						<br />
-						вашего бизнеса
-					</h1>
-					<a href="#" class="banner__btn btn">Заказать услугу</a>
-				</section>
-			</div>
-			<section class="colums">
-				<h2>Наши плюсы {заголовок который визульно спрячем(источник видео Саши Модуль 1. Вебинар 1. Основы HTML часть 1 1:10:45)}</h2>
-				<ul class="colums__list">
-					<li class="colums__item">
-						<h3 class="colums__title">Внимание к деталям</h3>
-						<p class="colums__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+			<section class="hero">
+				<h1>
+					Эффективные решения для
+					<br />
+					вашего бизнеса
+				</h1>
+				<a href="#">Заказать услугу</a>
+			</section>
+			<section>
+				<!-- <h2>Наши плюсы </h2> -->
+				<ul>
+					<li>
+						<h3>Внимание к деталям</h3>
+						<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 					</li>
-					<li class="colums__item">
-						<h3 class="colums__title">Пунктуальность</h3>
-						<p class="colums__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+					<li>
+						<h3>Пунктуальность</h3>
+						<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 					</li>
-					<li class="colums__item">
-						<h3 class="colums__title">Планирование</h3>
-						<p class="colums__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+					<li>
+						<h3>Планирование</h3>
+						<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 					</li>
-					<li class="colums__item">
-						<h3 class="colums__title">Современные технологии</h3>
-						<p class="colums__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+					<li>
+						<h3>Современные технологии</h3>
+						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
 			</section>
-			<section class="portfolio">
-				<h2 class="protfolio__title">Чем мы занимаемся</h2>
-				<div class="portfolio__imageblock">
-					<img src="./images/img_01.jpg" alt="working image 01" width="370" class="portfolio__image" />
-					<img src="./images/img_02.jpg" alt="working image 02" width="370" class="portfolio__image" />
-					<img src="./images/img_03.jpg" alt="working image 03" width="370" class="portfolio__image" />
+			<section>
+				<h2>Чем мы занимаемся</h2>
+				<div>
+					<img src="./images/img_01.jpg" alt="working image 01" width="370" />
+					<img src="./images/img_02.jpg" alt="working image 02" width="370" />
+					<img src="./images/img_03.jpg" alt="working image 03" width="370" />
 				</div>
 			</section>
-			<section class="ourteam">
-				<h2 class="ourteam__title">Наша команда</h2>
-				<div class="ourteam__employee">
+			<section>
+				<h2>Наша команда</h2>
+				<div>
 					<img src="./images/employee_01.jpg" alt="Игорь Демьяненко" width="270" />
 					<h3>Игорь Демьяненко</h3>
 					<p>Product Designer</p>
 				</div>
-				<div class="ourteam__employee">
+				<div>
 					<img src="./images/employee_02.jpg" alt="Ольга Репина" width="270" />
 					<h3>Ольга Репина</h3>
 					<p>Frontend Developer</p>
 				</div>
-				<div class="ourteam__employee">
+				<div>
 					<img src="./images/employee_03.jpg" alt="Николай Тарасов" width="270" />
 					<h3>Николай Тарасов</h3>
 					<p>Marketing</p>
 				</div>
-				<div class="ourteam__employee">
+				<div>
 					<img src="./images/employee_04.jpg" alt="Михаил Ермаков" width="270" />
 					<h3>Михаил Ермаков</h3>
 					<p>UI Designer</p>
 				</div>
 			</section>
 		</main>
-		<footer class="footer">
-			<div class="footer__content">
-				<a href="./index.html" class="footer__logo">
+		<footer>
+			<div>
+				<a href="./index.html">
 					<span>Web</span>
 					Studio
 				</a>
-				<address class="footer__address">
+				<address>
 					<p>г. Киев, пр-т Леси Украинки, 26</p>
-					<a href="mailto:info@devstudio.com" class="footer__link">info@devstudio.com</a>
-					<a href="tel:+380961111111" class="footer__link">+38 096 111 11 11</a>
+					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+					<a href="tel:+380961111111">+38 096 111 11 11</a>
 				</address>
 			</div>
 		</footer>
